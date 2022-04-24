@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @JasonEckardt
-- 👀 I’m interested in ...
+- 👀 I’m interested in ... Computer Science
 - 🌱 I’m currently a student at Adrian College
 - 📫 How to reach me ... jasoneckardttaing@gmail.com
 
