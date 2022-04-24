@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Eckardt-Taing: Practicing using JavaScript</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+
+    <h1>Hi, welcome to my website.</h1>
+    <h2>Enter your info here:</h2>
+    
+    <form id="form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="favorite_food">What is your favorite food?</label><br>
+        <select name="favorite_food" id="favorite_food">
+            <option value="default">[-Select one-]</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Hamburger">Hamburger</option>
+            <option value="Steak">Steak</option>
+            <option value="Hot dogs">Hot dogs</option>
+            <option value="Corn dogs">Corn dogs</option>
+            <option value="Poutine">Poutine</option>
+            <option value="French Fries">French Fries</option>
+        </select><br>
+
+        <label>Hair color:</label><br>
+        <input type="radio" id="blonde" name="hair_color" value="blonde">
+        <label for="blonde">Blonde</label><br>
+        <input type="radio" id="brown" name="hair_color" value="brown">
+        <label for="brown">Brown</label><br>
+        <input type="radio" id="black" name="hair_color" value="black">
+        <label for="black">Black</label><br>
+        <input type="radio" id="gray" name="hair_color" value="gray">
+        <label for="gray">Gray</label><br>
+        <input type="radio" id="bald" name="hair_color" value="bald">
+        <label for="bald">Bald</label><br>
+        <input type="radio" id="other" name="hair_color" value="other">
+        <label for="other">Other</label><br>
+
+        <label>What hobbies do you like? (Select at least 2)</label><br>
+        <input type="checkbox" id="exercise" name="hobby" value="exercise">
+        <label for="exercise">Exercise</label>
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="movies" name="hobby" value="movies">
+        <label for="movies">Watching movies</label>
+        <input type="checkbox" id="games" name="hobby" value="games">
+        <label for="games">Playing games</label>
+        <input type="checkbox" id="cooking" name="hobby" value="cooking">
+        <label for="cooking">Cooking</label>
+        <input type="checkbox" id="instrument" name="hobby" value="instrument">
+        <label for="instrument">Playing an instrument</label><br>
+
+        <button class="button" onclick="ValidateForm();" name="submit" value="submit">Submit</button>
+        <button class="button" onclick="ResetForm();" name="reset" value="reset">Reset</button>
+    </form>
+
+</body>
+
+</html>
