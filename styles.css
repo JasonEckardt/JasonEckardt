@@ -1,0 +1,61 @@
+h1,
+h2 {
+    margin-bottom: 25px;
+    background-color: rgb(192, 57, 43);
+    width: 40%;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    width: 20%;
+}
+
+body {
+    background-color: rgb(249, 235, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 15px;
+    font-size: 20px;
+}
+
+input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgb(242, 215, 213);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text]:focus {
+    border: 3px solid rgb(85, 85, 85);
+    background-color: rgb(230, 176, 170);
+}
+
+select {
+    width: 25%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(242, 215, 213);
+}
+
+.button {
+    background-color: rgb(192, 57, 43);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    width: 25%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
