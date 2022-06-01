@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @JasonEckardt
-- 👀 I’m interested in ... Computer Science
+- 👀 I’m interested in ... Computer Science / Computer Engineering
 - 🌱 I’m currently a student at Adrian College
-- 📫 How to reach me ... jasoneckardttaing@gmail.com
+- 📫 How to reach me ... jasoneckardttaing@gmail.com OR jeckardt-taing25@adrian.edu
 
 <!---
 JasonEckardt/JasonEckardt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
